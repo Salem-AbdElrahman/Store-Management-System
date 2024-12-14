@@ -78,7 +78,7 @@ function displayData(){
     let box=``;
     for(let i=0;i<productContainer.length;i++){
         box+=`   <tr>
-                    <td>${i}</td>
+                    <td>${i+1}</td>
                     <td>${productContainer[i].title}</td>
                     <td>${productContainer[i].price}</td>
                     <td>${productContainer[i].taxes}</td>
