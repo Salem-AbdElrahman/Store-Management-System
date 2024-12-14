@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    margin: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+input{
+    width: 100%;
+    background-color: #111;
+    height: 20px;
+    outline: none;
+    border: none;
+    margin: 4px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+}
+input:focus{
+    background-color: #000;
+    transform:scale(1.1) ;
+    -webkit-transform:scale(1.1) ;
+    -moz-transform:scale(1.1) ;
+    -ms-transform:scale(1.1) ;
+    -o-transform:scale(1.1) ;
+}
+.price input{
+    width: 20%;
+    margin: 0 2px;
+}
+#total{
+    background-color: rgb(164, 11, 0);
+    padding: 5px 2px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+#total::before{
+    content: 'Total: ';
+}
+button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: rgb(70, 70, 203);
+    color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+button:hover{
+    background-color: rgb(40, 40, 228);
+    letter-spacing: 1px;
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-btn button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#update{
+    background-color: rgb(157, 157, 0);
+}
+#update:hover{
+    background-color: rgb(224, 224, 9);
+}
+#delete{
+    background-color: rgb(136, 0, 39);
+}
+#delete:hover{
+    background-color: red;
+}
+#delete-all{
+    background-color: rgb(136, 0, 39);
+    margin: 10px 0;
+}
+#delete-all:hover{
+    background-color: red;
+}
+th{
+    text-transform: uppercase;
+}
+td,th{
+    padding: 5px;
+}
